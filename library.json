@@ -1,0 +1,73 @@
+{
+    "books": [
+        {
+            "id": "B_8MAUT",
+            "title": "game of thrones",
+            "author": "george R.R martin",
+            "total_copies": 25,
+            "available_copies": 24,
+            "added_on": "2026-09-09 10:25:13"
+        },
+        {
+            "id": "B_0VTQS",
+            "title": "python notebook",
+            "author": "Mr. Ankit Singh",
+            "total_copies": 10,
+            "available_copies": 9,
+            "added_on": "2026-09-09 17:15:36"
+        },
+        {
+            "id": "B_E50QJ",
+            "title": "gyaani baba",
+            "author": "kajal",
+            "total_copies": 10,
+            "available_copies": 10,
+            "added_on": "2026-09-13 22:53:41"
+        },
+        {
+            "id": "B_JPOVQ",
+            "title": "ay",
+            "author": "aashihb",
+            "total_copies": 10,
+            "available_copies": 9,
+            "added_on": "2026-10-02 19:41:50"
+        }
+    ],
+    "member": [
+        {
+            "id": "M_2GVIO",
+            "name": "Ankit Singh",
+            "email": "ankitsinghh346@gmail.com",
+            "borowed": [
+                {
+                    "book_id": "B_8MAUT",
+                    "title": "game of thrones",
+                    "borrow_on": "2026-09-09 17:15:52"
+                },
+                {
+                    "book_id": "B_0VTQS",
+                    "title": "python notebook",
+                    "borrow_on": "2026-09-09 17:15:57"
+                }
+            ]
+        },
+        {
+            "id": "M_U5UK1",
+            "name": "kajal singh",
+            "email": "ankitsinghh785@gmail.com",
+            "borowed": []
+        },
+        {
+            "id": "M_AXXNE",
+            "name": "ashish singh",
+            "email": "ankitsinghh785@gmail.com",
+            "borowed": [
+                {
+                    "book_id": "B_JPOVQ",
+                    "title": "ay",
+                    "borrow_on": "2026-10-02 19:43:21"
+                }
+            ]
+        }
+    ]
+}
